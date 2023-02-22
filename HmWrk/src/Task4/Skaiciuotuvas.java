@@ -12,12 +12,12 @@ public class Skaiciuotuvas {
         int b = userInput.secondNumber = scanner.nextInt();
         Matematika Matematika = new Matematika();
 
-        System.out.println("Here is the result of mathematical operations with the provided numbers, ");
-        System.out.println("where " +a+" is the first argument and " +b+" is the second argument:");
+        System.out.println("Here is the result of mathematical operations with the provided numbers");
+        System.out.println("where " +a+ " is the first argument and " +b+ " is the second argument:");
         System.out.println("addition: " + Matematika.addition(a,b));
         System.out.println("substraction: " + Matematika.substraction (a,b));
-        System.out.println("multiplication: "+ Matematika.multiplication(a,b));
-        System.out.println("division: "+ Matematika.division(a,b));
+        System.out.println("multiplication: " + Matematika.multiplication(a,b));
+        System.out.println("division: " + Matematika.division(a,b));
 
 
 
